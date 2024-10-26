@@ -13,7 +13,7 @@ Code example of detecting open process handles to our process (C/C++, Windows us
 - Calls to `OpenProcess` from external applications to our application can be detected
 
 ## Drawbacks & Limitations
-- Expensive CPU-wise to constantly fetch all system handles
+- Expensive CPU-wise to constantly fetch all handles on the system 
 - SERVICE or SYSTEM processes cannot have their handles queried from usermode
 
 Thanks for reading, happy coding!
